@@ -1,0 +1,4 @@
+<?php
+
+// Path: database.php
+    

@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+    background-color: #f1f1f1;
+}
+
+header {
+    background-color: #1b1b1b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    padding: 0 10vw;
+
+}
+
+header .logo{
+    cursor: pointer;
+}
+
+header .logo img{
+    height: 70px;
+    width: auto;
+    transition: all 0.3s ease;
+}
+
+header .logo img:hover{
+    transform: scale(1.1);
+}
+
+.header .nav-links{
+    list-style: none;
+}
+
+.header .nav-links li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.header .nav-links li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    transition: all 0.3s ease;
+}
+
+.header .nav-links li a:hover{
+    color: #f26a2e;
+}
